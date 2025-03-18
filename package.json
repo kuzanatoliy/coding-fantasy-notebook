@@ -1,6 +1,7 @@
 {
   "name": "grid-garden-notebook",
   "version": "0.2.0",
+  "type": "module",
   "description": "Solution list for grid garden play",
   "main": "index.js",
   "scripts": {
@@ -19,6 +20,9 @@
   ],
   "author": "kuzanatoliy <njkznu@gmail.com>",
   "license": "MIT",
+  "engines": {
+    "node": ">=22.0.0"
+  },
   "devDependencies": {
     "@commitlint/cli": "^19.5.0",
     "@commitlint/config-conventional": "^19.5.0",

@@ -20,6 +20,6 @@ module.exports = {
   },
   plugins: ['@typescript-eslint', 'prettier', 'cypress'],
   rules: {
-    'prettier/prettier': [2, require('./.prettierrc.js')],
+    'prettier/prettier': [2, require('./.prettierrc.cjs')],
   },
 };
