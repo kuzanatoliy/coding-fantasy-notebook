@@ -5,7 +5,7 @@ module.exports = {
   },
   parserPreset: {
     parserOpts: {
-      issuePrefixes: ['GGN-'],
+      issuePrefixes: ['CFN-'],
     },
   },
 };
