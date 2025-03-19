@@ -1,6 +1,6 @@
 # coding-fantasy-notebook
 
-List of ...
+List of [Coding Fantasy](https://codingfantasy.com) plays
 
 **Note:** solution could be found [here](SOLUTIONS.md)
 
