@@ -13,6 +13,8 @@
     "commitlint": "commitlint --edit"
   },
   "keywords": [
+    "coding fantasy",
+    "codingfantasy",
     "cypress",
     "javascript",
     "typescript",
