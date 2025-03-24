@@ -1,10 +1,11 @@
 import { levels } from '../fixtures/levels';
 
+console.log(levels);
+
 describe.skip('...', () => {
   it('Should open page', () => {
-    console.log(levels);
-    // cy.visit('https://cssgridgarden.com/#en');
-    // cy.get('.title').should('contain', 'Grid Garden');
+    cy.visit('https://codingfantasy.com');
+    cy.get('h1').should('contain', 'Learn Code By Playing Games');
   });
 
   /* const testLevel = (levelNumber) => {
