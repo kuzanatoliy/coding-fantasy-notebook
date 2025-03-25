@@ -9,17 +9,22 @@ describe('...', () => {
     cy.get('input[name="email"]').type(Cypress.env('email_login'));
     cy.get('button').click();
     cy.get('div[role="dialog"]').should('contain', 'Check your email!');
+    cy.visit('https://accounts.zoho.eu/signin');
     cy.origin('https://accounts.zoho.eu', () => {
-      cy.visit('/signin');
+      Cypress.on('uncaught:exception', () => false);
+
       cy.get('input[name="LOGIN_ID"]').type(Cypress.env('email_login'));
       cy.get('#nextbtn').click();
       cy.get('input[name="PASSWORD"]').type(Cypress.env('email_password'));
       cy.get('#nextbtn').click();
     });
 
-    cy.origin('https://mail.zoho.eu/zm', () => {
+    cy.visit('https://mail.zoho.eu/zm');
+
+    cy.origin('https://mail.zoho.eu/', () => {
       cy.get(
-        '[aria-label*="noreply@codingfantassy-prod.firebaseapp.com"]:first'
+        '[aria-label*="noreply@codingfantassy-prod.firebaseapp.com"]:first',
+        { timeout: 300000 }
       ).click();
     });
   });
