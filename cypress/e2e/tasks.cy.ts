@@ -17,16 +17,27 @@ describe('...', () => {
       cy.get('#nextbtn').click();
       cy.get('input[name="PASSWORD"]').type(Cypress.env('email_password'));
       cy.get('#nextbtn').click();
+      cy.get('body').then(($body) => {
+        if ($body.find('.announcement_header').length) {
+          cy.get('.remind-later').click();
+        }
+      });
     });
 
     cy.visit('https://mail.zoho.eu/zm');
 
     cy.origin('https://mail.zoho.eu/', () => {
+      cy.get('[aria-label="Notification"]').click();
       cy.get(
-        '[aria-label*="noreply@codingfantassy-prod.firebaseapp.com"]:first',
-        { timeout: 300000 }
+        '[aria-label*="noreply@codingfantassy-prod.firebaseapp.com"]:first-of-type'
+      ).click();
+      cy.get(
+        'a[href*="https://codingfantassy-prod.firebaseapp.com/__/auth"]'
       ).click();
     });
+
+    cy.visit('https://codingfantasy.com/games');
+    cy.get('a[href="/profile"]').should('contain', 'Hero');
   });
 
   it('Should open page', () => {
