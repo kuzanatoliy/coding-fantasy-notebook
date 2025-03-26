@@ -23,3 +23,17 @@
 //
 // -- This will overwrite an existing command --
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
+
+Cypress.Commands.add('login', (username = 'test') => {
+  cy.session(username, () => {}, {
+    validate: () => {
+      //cy.visit('https://codingfantasy.com/games');
+      // temporary
+      //cy.contains('MCP Panic');
+      //cy.contains('Flex Box Adventure');
+      //cy.contains('Grid Attack');
+    },
+    cacheAcrossSpecs: true,
+  });
+  cy.visit('https://codingfantasy.com/games');
+});
