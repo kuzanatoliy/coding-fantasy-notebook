@@ -1,11 +1,5 @@
 /* eslint-disable @typescript-eslint/ban-ts-comment */
 describe('Flexbox Adventure', () => {
-  beforeEach(() => {
-    Cypress.Cookies.debug(true);
-    // @ts-ignore
-    cy.login();
-  });
-
   it('Should solve first task', () => {
     cy.visit('https://codingfantasy.com/games/flexboxadventure/play');
     cy.get('[class*="game_description"]').should('contain', 'Level');
