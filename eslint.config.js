@@ -25,6 +25,12 @@ export default tseslint.config(
       },
     },
   },
+  {
+    files: ['cypress/support/index.ts'],
+    rules: {
+      '@typescript-eslint/no-namespace': ['error', { allowDeclarations: true }],
+    },
+  },
   prettierRecommended,
   {
     rules: {
