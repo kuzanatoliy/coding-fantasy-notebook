@@ -1,4 +1,3 @@
-/* eslint-disable @typescript-eslint/ban-ts-comment */
 describe('Flexbox Adventure', () => {
   it('Should solve first task', () => {
     cy.playFlexboxAdventureLevel(1);
@@ -14,5 +13,9 @@ describe('Flexbox Adventure', () => {
 
   it('Should solve fourth task', () => {
     cy.playFlexboxAdventureLevel(4);
+  });
+
+  it('Should solve fourth task', () => {
+    cy.playFlexboxAdventureLevel(5);
   });
 });
