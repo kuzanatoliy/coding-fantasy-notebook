@@ -73,3 +73,10 @@
     grid-template-columns: 100px 30%;
 
 </details>
+
+<details>
+  <summary>Level 6</summary>
+
+    grid-template-columns: repeat(3, 1fr);
+
+</details>
