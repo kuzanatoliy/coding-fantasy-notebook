@@ -6,4 +6,5 @@ export const gridattackLevels = [
   ['grid-template-columns: 100px 30%;'],
   ['grid-template-columns: repeat(3, 1fr);'],
   ['grid-template-columns: repeat(4, 1fr);'],
+  ['grid-template-columns: 100px repeat(3, 1fr);'],
 ];

@@ -87,3 +87,10 @@
     grid-template-columns: repeat(4, 1fr);
 
 </details>
+
+<details>
+  <summary>Level 8</summary>
+
+    grid-template-columns: 100px repeat(3, 1fr);
+
+</details>
