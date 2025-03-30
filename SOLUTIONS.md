@@ -52,3 +52,10 @@
     grid-template-columns: 20% 40% 40%;
 
 </details>
+
+<details>
+  <summary>Level 3</summary>
+
+    grid-template-columns: repeat(4, 25%);
+
+</details>
