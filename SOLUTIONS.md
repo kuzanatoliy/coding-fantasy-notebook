@@ -66,3 +66,10 @@
     grid-template-columns: repeat(3, 30%);
 
 </details>
+
+<details>
+  <summary>Level 5</summary>
+
+    grid-template-columns: 100px 30%;
+
+</details>

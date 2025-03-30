@@ -15,7 +15,7 @@ describe('Grid Attack', () => {
     cy.playGridAttackLevel(4);
   });
 
-  /*it('Should solve fourth task', () => {
-    cy.playFlexboxAdventureLevel(5);
-  });*/
+  it('Should solve fifth task', () => {
+    cy.playGridAttackLevel(5);
+  });
 });
