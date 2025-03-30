@@ -94,3 +94,10 @@
     grid-template-columns: 100px repeat(3, 1fr);
 
 </details>
+
+<details>
+  <summary>Level 9</summary>
+
+    grid-template-columns: 20% 100px 1fr;
+
+</details>
