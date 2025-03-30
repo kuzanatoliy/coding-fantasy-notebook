@@ -3,11 +3,11 @@ describe('Grid Attack', () => {
     cy.playGridAttackLevel(1);
   });
 
-  /*it('Should solve second task', () => {
-    cy.playFlexboxAdventureLevel(2);
+  it('Should solve second task', () => {
+    cy.playGridAttackLevel(2);
   });
 
-  it('Should solve third task', () => {
+  /*it('Should solve third task', () => {
     cy.playFlexboxAdventureLevel(3);
   });
 

@@ -36,3 +36,19 @@
     justify-content: space-evenly;
 
 </details>
+
+## Grid attack
+
+<details>
+  <summary>Level 1</summary>
+
+    grid-template-columns: 1fr 1fr;
+
+</details>
+
+<details>
+  <summary>Level 2</summary>
+
+    grid-template-columns: 20% 40% 40%;
+
+</details>
