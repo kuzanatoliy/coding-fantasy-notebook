@@ -101,3 +101,10 @@
     grid-template-columns: 20% 100px 1fr;
 
 </details>
+
+<details>
+  <summary>Level 10</summary>
+
+    grid-template-columns: 1fr auto 1fr;
+
+</details>
