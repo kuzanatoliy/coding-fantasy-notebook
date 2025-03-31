@@ -37,6 +37,67 @@
 
 </details>
 
+<details>
+  <summary>Level 6</summary>
+
+    align-items: center;
+
+</details>
+
+<details>
+  <summary>Level 7</summary>
+
+    align-items: flex-end;
+
+</details>
+
+<details>
+  <summary>Level 8</summary>
+
+    justify-content: center;
+    align-items: center;
+
+</details>
+
+<details>
+  <summary>Level 9</summary>
+
+    justify-content: space-between;
+    align-items: flex-end;
+
+</details>
+
+<details>
+  <summary>Level 10</summary>
+
+    flex-direction: column;
+
+</details>
+
+<details>
+  <summary>Level 11</summary>
+
+    flex-direction: row-reverse;
+
+</details>
+
+<details>
+  <summary>Level 12</summary>
+
+    flex-direction: column;
+    justify-content: flex-end;
+
+</details>
+
+<details>
+  <summary>Level 13</summary>
+
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+
+</details>
+
 ## Grid attack
 
 <details>

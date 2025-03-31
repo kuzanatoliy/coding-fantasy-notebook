@@ -4,4 +4,16 @@ export const flexboxadventureLevels = [
   ['justify-content: space-between;'],
   ['justify-content: space-around;'],
   ['justify-content: space-evenly;'],
+  ['align-items: center;'],
+  ['align-items: flex-end;'],
+  ['justify-content: center;', 'align-items: center;'],
+  ['justify-content: space-between;', 'align-items: flex-end;'],
+  ['flex-direction: column;'],
+  ['flex-direction: row-reverse;'],
+  ['flex-direction: column;', 'justify-content: flex-end;'],
+  [
+    'flex-direction: row-reverse;',
+    'justify-content: center;',
+    'align-items: center;',
+  ],
 ];
