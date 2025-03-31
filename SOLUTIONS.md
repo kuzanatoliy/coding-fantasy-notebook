@@ -51,6 +51,14 @@
 
 </details>
 
+<details>
+  <summary>Level 8</summary>
+
+    justify-content: center;
+    align-items: center;
+
+</details>
+
 ## Grid attack
 
 <details>
