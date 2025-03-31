@@ -7,4 +7,5 @@ export const flexboxadventureLevels = [
   ['align-items: center;'],
   ['align-items: flex-end;'],
   ['justify-content: center;', 'align-items: center;'],
+  ['justify-content: space-between;', 'align-items: flex-end;'],
 ];

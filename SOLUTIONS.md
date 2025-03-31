@@ -59,6 +59,14 @@
 
 </details>
 
+<details>
+  <summary>Level 9</summary>
+
+    justify-content: space-between;
+    align-items: flex-end;
+
+</details>
+
 ## Grid attack
 
 <details>
