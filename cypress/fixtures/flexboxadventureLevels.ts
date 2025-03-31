@@ -4,4 +4,5 @@ export const flexboxadventureLevels = [
   ['justify-content: space-between;'],
   ['justify-content: space-around;'],
   ['justify-content: space-evenly;'],
+  ['align-items: center;'],
 ];

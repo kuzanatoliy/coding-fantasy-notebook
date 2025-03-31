@@ -37,6 +37,13 @@
 
 </details>
 
+<details>
+  <summary>Level 6</summary>
+
+    align-items: center;
+
+</details>
+
 ## Grid attack
 
 <details>
