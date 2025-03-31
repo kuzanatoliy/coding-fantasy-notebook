@@ -81,6 +81,14 @@
 
 </details>
 
+<details>
+  <summary>Level 12</summary>
+
+    flex-direction: column;
+    justify-content: flex-end;
+
+</details>
+
 ## Grid attack
 
 <details>
