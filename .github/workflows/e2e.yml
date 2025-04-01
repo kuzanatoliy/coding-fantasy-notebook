@@ -3,6 +3,7 @@ on: workflow_dispatch
 jobs:
   pipeline:
     runs-on: ubuntu-latest
+    environment: e2e
     strategy:
       matrix:
         node-version: [22.x]
@@ -12,6 +13,9 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: ${{ matrix.node-version }}
+      - name: configure
+        run: |
+          echo "{\"email_password\":\"${{ secrets.EMAIL_PASSWORD }}\",\"login\":\"${{vars.LOGIN}}\",\"email_login\":\"${{vars.EMAIL_LOGIN}}\"}" > cypress.env.json
       - name: install dependencies
         run: npm install
       - name: e2e testing
