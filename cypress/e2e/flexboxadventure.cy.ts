@@ -55,7 +55,11 @@ describe('Flexbox Adventure', () => {
     cy.playFlexboxAdventureLevel(14);
   });
 
-  it('Should solve fourteen task', () => {
+  it('Should solve fifteen task', () => {
+    cy.playFlexboxAdventureLevel(15);
+  });
+
+  it('Should solve sixteen task', () => {
     cy.playFlexboxAdventureLevel(15);
   });
 });
