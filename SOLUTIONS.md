@@ -144,6 +144,13 @@
 
 </details>
 
+<details>
+  <summary>Level 20</summary>
+
+    align-content: center;
+
+</details>
+
 ## Grid attack
 
 <details>
