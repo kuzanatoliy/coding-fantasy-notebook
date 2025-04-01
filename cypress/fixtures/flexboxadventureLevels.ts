@@ -24,4 +24,5 @@ export const flexboxadventureLevels = [
     'justify-content: flex-end;',
     'align-items: center;',
   ],
+  ['order: 2;', 'align-self: center;'],
 ];

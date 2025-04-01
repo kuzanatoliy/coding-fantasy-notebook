@@ -129,6 +129,14 @@
 
 </details>
 
+<details>
+  <summary>Level 18</summary>
+
+    order: 2;
+    align-self: center;
+
+</details>
+
 ## Grid attack
 
 <details>
