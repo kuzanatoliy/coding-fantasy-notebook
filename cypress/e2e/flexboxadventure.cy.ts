@@ -51,31 +51,35 @@ describe('Flexbox Adventure', () => {
     cy.playFlexboxAdventureLevel(13);
   });
 
-  it('Should solve fourteen task', () => {
+  it('Should solve fourteenth task', () => {
     cy.playFlexboxAdventureLevel(14);
   });
 
-  it('Should solve fifteen task', () => {
+  it('Should solve fifteenth task', () => {
     cy.playFlexboxAdventureLevel(15);
   });
 
-  it('Should solve sixteen task', () => {
+  it('Should solve sixteenth task', () => {
     cy.playFlexboxAdventureLevel(16);
   });
 
-  it('Should solve seventeen task', () => {
+  it('Should solve seventeenth task', () => {
     cy.playFlexboxAdventureLevel(17);
   });
 
-  it('Should solve eighteen task', () => {
+  it('Should solve eighteenth task', () => {
     cy.playFlexboxAdventureLevel(18);
   });
 
-  it('Should solve nineteen task', () => {
+  it('Should solve nineteenth task', () => {
     cy.playFlexboxAdventureLevel(19);
   });
 
-  it('Should solve nineteen task', () => {
+  it('Should solve nineteenth task', () => {
     cy.playFlexboxAdventureLevel(20);
+  });
+
+  it('Should solve twenty first task', () => {
+    cy.playFlexboxAdventureLevel(21);
   });
 });
