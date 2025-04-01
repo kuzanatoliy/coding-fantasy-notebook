@@ -15,7 +15,7 @@ jobs:
           node-version: ${{ matrix.node-version }}
       - name: configure
         run: |
-          echo "{\"email_password\": \"${{ secrets.EMAIL_PASSWORD }}\",\"login\":"\${{vars.LOGIN}}\",\"email_login\":\"${{vars.EMAIL_LOGIN}}\"}" >> cypress.env.json
+          echo "{\"email_password\":\"${{ secrets.EMAIL_PASSWORD }}\",\"login\":"\${{vars.LOGIN}}\",\"email_login\":\"${{vars.EMAIL_LOGIN}}\"}" > cypress.env.json
       - name: install dependencies
         run: npm install
       - name: e2e testing
