@@ -98,6 +98,96 @@
 
 </details>
 
+<details>
+  <summary>Level 14</summary>
+
+    order: 2;
+
+</details>
+
+<details>
+  <summary>Level 15</summary>
+
+    align-self: center;
+
+</details>
+
+<details>
+  <summary>Level 16</summary>
+
+    order: -1;
+    align-self: flex-end;
+
+</details>
+
+<details>
+  <summary>Level 17</summary>
+
+    flex-direction: column-reverse;
+    justify-content: flex-end;
+    align-items: center;
+
+</details>
+
+<details>
+  <summary>Level 18</summary>
+
+    order: 2;
+    align-self: center;
+
+</details>
+
+<details>
+  <summary>Level 19</summary>
+
+    flex-wrap: wrap;
+
+</details>
+
+<details>
+  <summary>Level 20</summary>
+
+    align-content: center;
+
+</details>
+
+<details>
+  <summary>Level 21</summary>
+
+    align-content: flex-end;
+    justify-content: center;
+
+</details>
+
+<details>
+  <summary>Level 22</summary>
+
+    flex-direction: column-reverse;
+    justify-content: space-around;
+    align-items: flex-end;
+
+</details>
+
+<details>
+  <summary>Level 23</summary>
+
+    flex-direction: column-reverse;
+    flex-wrap: wrap-reverse;
+    align-content: center;
+    justify-content: center;
+
+</details>
+
+<details>
+  <summary>Level 24</summary>
+
+    flex-direction: column-reverse;
+    flex-wrap: wrap-reverse;
+    align-content: center;
+    justify-content: center;
+
+</details>
+
 ## Grid attack
 
 <details>
