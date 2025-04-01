@@ -15,5 +15,10 @@ Cypress.Commands.add('playFlexboxAdventureLevel', (level: number) => {
     flexboxadventureLevels[level - 1].join('\n')
   );
   cy.get('[class*="game_editor"] button').click();
-  cy.get('[role="dialog"]').should('contain', `Level ${level} completed`);
+  cy.get('[role="dialog"]').should(
+    'contain',
+    level === flexboxadventureLevels.length
+      ? 'Congratulations, you defeated the last boss!'
+      : `Level ${level} completed`
+  );
 });
