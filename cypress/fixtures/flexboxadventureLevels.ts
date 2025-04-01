@@ -39,4 +39,5 @@ export const flexboxadventureLevels = [
     'align-content: center;',
     'justify-content: center;',
   ],
+  ['order: 3', 'align-self: center;'],
 ];

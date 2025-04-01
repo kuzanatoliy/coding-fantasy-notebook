@@ -178,6 +178,16 @@
 
 </details>
 
+<details>
+  <summary>Level 24</summary>
+
+    flex-direction: column-reverse;
+    flex-wrap: wrap-reverse;
+    align-content: center;
+    justify-content: center;
+
+</details>
+
 ## Grid attack
 
 <details>
