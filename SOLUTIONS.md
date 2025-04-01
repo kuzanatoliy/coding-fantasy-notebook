@@ -105,6 +105,13 @@
 
 </details>
 
+<details>
+  <summary>Level 15</summary>
+
+    align-self: center;
+
+</details>
+
 ## Grid attack
 
 <details>
