@@ -28,4 +28,9 @@ export const flexboxadventureLevels = [
   ['flex-wrap: wrap;'],
   ['align-content: center;'],
   ['align-content: flex-end;', 'justify-content: center;'],
+  [
+    'flex-direction: column-reverse;',
+    'justify-content: space-around;',
+    'align-items: flex-end;',
+  ],
 ];
