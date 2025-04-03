@@ -317,3 +317,10 @@
     gap: 10% 20px;
 
 </details>
+
+<details>
+  <summary>Level 19</summary>
+
+    grid-column-start: 3;
+
+</details>
