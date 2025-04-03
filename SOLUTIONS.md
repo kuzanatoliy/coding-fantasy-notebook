@@ -365,3 +365,10 @@
     grid-row-end: 5;
 
 </details>
+
+<details>
+  <summary>Level 25</summary>
+
+    grid-row: span 4;
+
+</details>
