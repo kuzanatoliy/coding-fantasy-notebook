@@ -357,3 +357,11 @@
     grid-row-start: 2;
 
 </details>
+
+<details>
+  <summary>Level 24</summary>
+
+    grid-row-start: 1;
+    grid-row-end: 5;
+
+</details>
