@@ -259,3 +259,10 @@
     grid-template-columns: 1fr auto 1fr;
 
 </details>
+
+<details>
+  <summary>Level 11</summary>
+
+    grid-template: 100px 150px 1fr / 25% 50% 25%;
+
+</details>
