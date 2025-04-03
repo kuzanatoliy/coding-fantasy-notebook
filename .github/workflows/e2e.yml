@@ -1,5 +1,17 @@
 name: e2e
-on: workflow_dispatch
+on:
+  workflow_dispatch:
+    inputs:
+      testSuit:
+        description: Chose test suit to run
+        required: true
+        default: 'all'
+        type: choice
+        options:
+          - all
+          - general
+          - flexbox adventure
+          - grid attack
 jobs:
   pipeline:
     runs-on: ubuntu-latest
@@ -18,5 +30,12 @@ jobs:
           echo "{\"email_password\":\"${{ secrets.EMAIL_PASSWORD }}\",\"login\":\"${{vars.LOGIN}}\",\"email_login\":\"${{vars.EMAIL_LOGIN}}\"}" > cypress.env.json
       - name: install dependencies
         run: npm install
-      - name: e2e testing
-        run: npm run cy:run
+      - name: run generall e2e tests
+        if: ${{ inputs.testSuit == 'all' || inputs.testSuit == 'general' }}
+        run: npm run cy:run -- --spec "cypress/e2e/codingfantasy.cy.ts"
+      - name: run flexbox adventure e2e tests
+        if: ${{ inputs.testSuit == 'all' || inputs.testSuit == 'flexbox adventure' }}
+        run: npm run cy:run -- --spec "cypress/e2e/flexboxadventure.cy.ts"
+      - name: run grid attack e2e tests
+        if: ${{ inputs.testSuit == 'all' || inputs.testSuit == 'grid attack' }}
+        run: npm run cy:run -- --spec "cypress/e2e/gridattack.cy.ts"
