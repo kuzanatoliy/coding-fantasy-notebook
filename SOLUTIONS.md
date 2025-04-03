@@ -340,3 +340,13 @@
     grid-column-end: 4;
 
 </details>
+
+<details>
+  <summary>Level 22</summary>
+
+    grid-column-start: span 2;
+
+    gap: 15px;
+    grid-template: 100px 1fr / 1fr 1fr 1fr;
+
+</details>

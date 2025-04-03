@@ -20,4 +20,10 @@ export const gridattackLevels = [
   ['grid-column-start: 3;'],
   ['grid-column-start: 2;', 'grid-column-end: 4;'],
   ['grid-column-start: 2;', 'grid-column-end: 4;'],
+  [
+    'grid-column-start: span 2;',
+    '',
+    'gap: 15px;',
+    'grid-template: 100px 1fr / 1fr 1fr 1fr;',
+  ],
 ];
