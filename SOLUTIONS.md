@@ -266,3 +266,10 @@
     grid-template: 100px 150px 1fr / 25% 50% 25%;
 
 </details>
+
+<details>
+  <summary>Level 12</summary>
+
+    grid-template: 1fr 2fr 1fr / 1fr 2fr 1fr;
+
+</details>
