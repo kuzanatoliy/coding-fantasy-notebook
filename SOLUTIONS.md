@@ -372,3 +372,11 @@
     grid-row: span 4;
 
 </details>
+
+<details>
+  <summary>Level 26</summary>
+
+    grid-row: span 3;
+    grid-column: span 2;
+
+</details>

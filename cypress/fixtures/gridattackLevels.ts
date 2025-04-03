@@ -29,4 +29,5 @@ export const gridattackLevels = [
   ['grid-row-start: 2;'],
   ['grid-row-start: 1;', 'grid-row-end: 5;'],
   ['grid-row: span 4;'],
+  ['grid-row: span 3;', 'grid-column: span 2;'],
 ];
