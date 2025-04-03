@@ -380,3 +380,13 @@
     grid-column: span 2;
 
 </details>
+
+<details>
+  <summary>Level 27</summary>
+
+    gap: 15px;
+    grid-template: repeat(4, 1fr) / repeat(4, 1fr);
+
+    grid-area: 3 / 2 / 5 / 4;
+
+</details>
