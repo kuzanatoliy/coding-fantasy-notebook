@@ -259,3 +259,134 @@
     grid-template-columns: 1fr auto 1fr;
 
 </details>
+
+<details>
+  <summary>Level 11</summary>
+
+    grid-template: 100px 150px 1fr / 25% 50% 25%;
+
+</details>
+
+<details>
+  <summary>Level 12</summary>
+
+    grid-template: 1fr 2fr 1fr / 1fr 2fr 1fr;
+
+</details>
+
+<details>
+  <summary>Level 13</summary>
+
+    gap: 0 15px;
+
+</details>
+
+<details>
+  <summary>Level 14</summary>
+
+    grid-template: 1fr 2fr 1fr / 1fr 2fr 1fr;
+    gap: 0 5%;
+
+</details>
+
+<details>
+  <summary>Level 15</summary>
+
+    gap: 40px 0;
+
+</details>
+
+<details>
+  <summary>Level 16</summary>
+
+    gap: 15% 10px;
+
+</details>
+
+<details>
+  <summary>Level 17</summary>
+
+    gap: 20px;
+
+</details>
+
+<details>
+  <summary>Level 18</summary>
+
+    grid-template: 1fr 1fr 100px / 1fr 100px auto;
+    gap: 10% 20px;
+
+</details>
+
+<details>
+  <summary>Level 19</summary>
+
+    grid-column-start: 3;
+
+</details>
+
+<details>
+  <summary>Level 20</summary>
+
+    grid-column-start: 2;
+    grid-column-end: 4;
+
+</details>
+
+<details>
+  <summary>Level 21</summary>
+
+    grid-column-start: 2;
+    grid-column-end: 4;
+
+</details>
+
+<details>
+  <summary>Level 22</summary>
+
+    grid-column-start: span 2;
+
+    gap: 15px;
+    grid-template: 100px 1fr / 1fr 1fr 1fr;
+
+</details>
+
+<details>
+  <summary>Level 23</summary>
+
+    grid-row-start: 2;
+
+</details>
+
+<details>
+  <summary>Level 24</summary>
+
+    grid-row-start: 1;
+    grid-row-end: 5;
+
+</details>
+
+<details>
+  <summary>Level 25</summary>
+
+    grid-row: span 4;
+
+</details>
+
+<details>
+  <summary>Level 26</summary>
+
+    grid-row: span 3;
+    grid-column: span 2;
+
+</details>
+
+<details>
+  <summary>Level 27</summary>
+
+    gap: 15px;
+    grid-template: repeat(4, 1fr) / repeat(4, 1fr);
+
+    grid-area: 3 / 2 / 5 / 4;
+
+</details>

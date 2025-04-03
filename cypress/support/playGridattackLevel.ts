@@ -11,9 +11,9 @@ Cypress.Commands.add('playGridAttackLevel', (level: number) => {
   });
   cy.get('[class*="LevelDropdown_ddArrow"]').click();
   cy.get('[class*="LevelDropdown_ddList"]').contains(`Level ${level}`).click();
-  cy.get('textarea[class*="Editor_codeTextarea"]').clear();
+  cy.get('textarea[class*="Editor_codeTextarea"]').focus();
   cy.get('textarea[class*="Editor_codeTextarea"]').type(
-    `#field{{}display: grid;${gridattackLevels[level - 1].join('')}{}}`
+    `{moveToEnd}{upArrow}${gridattackLevels[level - 1].map((item) => item || '{upArrow}{upArrow}{upArrow}{upArrow}{upArrow}').join('')}`
   );
   // eslint-disable-next-line cypress/no-unnecessary-waiting
   cy.wait(4000);
