@@ -350,3 +350,10 @@
     grid-template: 100px 1fr / 1fr 1fr 1fr;
 
 </details>
+
+<details>
+  <summary>Level 23</summary>
+
+    grid-row-start: 2;
+
+</details>

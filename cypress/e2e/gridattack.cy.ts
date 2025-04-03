@@ -86,4 +86,8 @@ describe('Grid Attack', () => {
   it('Should solve twenty second task', () => {
     cy.playGridAttackLevel(22);
   });
+
+  it('Should solve twenty third task', () => {
+    cy.playGridAttackLevel(23);
+  });
 });
