@@ -299,13 +299,21 @@
 <details>
   <summary>Level 16</summary>
 
-    gap: 40px 0;
+    gap: 15% 10px;
 
 </details>
 
 <details>
   <summary>Level 17</summary>
 
-    gap: 40px 0;
+    gap: 20px;
+
+</details>
+
+<details>
+  <summary>Level 18</summary>
+
+    grid-template: 1fr 1fr 100px / 1fr 100px auto;
+    gap: 10% 20px;
 
 </details>
