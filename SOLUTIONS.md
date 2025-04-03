@@ -273,3 +273,10 @@
     grid-template: 1fr 2fr 1fr / 1fr 2fr 1fr;
 
 </details>
+
+<details>
+  <summary>Level 13</summary>
+
+    gap: 0 15px;
+
+</details>
