@@ -288,3 +288,10 @@
     gap: 0 5%;
 
 </details>
+
+<details>
+  <summary>Level 15</summary>
+
+    gap: 40px 0;
+
+</details>
