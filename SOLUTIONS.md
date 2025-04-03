@@ -324,3 +324,11 @@
     grid-column-start: 3;
 
 </details>
+
+<details>
+  <summary>Level 20</summary>
+
+    grid-column-start: 2;
+    grid-column-end: 4;
+
+</details>
