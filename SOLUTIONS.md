@@ -390,3 +390,10 @@
     grid-area: 3 / 2 / 5 / 4;
 
 </details>
+
+<details>
+  <summary>Level 28</summary>
+
+    grid-area: 2 / 1 / 5 / 4;
+
+</details>
