@@ -438,3 +438,10 @@
     grid-area: 3 / 1 / 4 / 4;
 
 </details>
+
+<details>
+  <summary>Level 33</summary>
+
+    grid-template-columns: min-content 1fr;
+
+</details>
