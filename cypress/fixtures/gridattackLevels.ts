@@ -61,4 +61,5 @@ export const gridattackLevels = [
     'gap: 15px 10px;',
   ],
   ['grid-template-columns: min-content 1fr;'],
+  ['grid-template: 1fr min-content / min-content 1fr;'],
 ];
