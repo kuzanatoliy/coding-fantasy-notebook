@@ -452,3 +452,10 @@
     grid-template: 1fr min-content / min-content 1fr;
 
 </details>
+
+<details>
+  <summary>Level 35</summary>
+
+    grid-template: 1fr 1fr / max-content 1fr;
+
+</details>
