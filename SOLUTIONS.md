@@ -459,3 +459,10 @@
     grid-template: 1fr 1fr / max-content 1fr;
 
 </details>
+
+<details>
+  <summary>Level 36</summary>
+
+    grid-template: 1fr 1fr / max-content min-content;
+
+</details>
