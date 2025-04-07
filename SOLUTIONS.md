@@ -466,3 +466,10 @@
     grid-template: 1fr 1fr / max-content min-content;
 
 </details>
+
+<details>
+  <summary>Level 37</summary>
+
+    grid-template-columns: minmax(250px, 1fr) 1fr;
+
+</details>
