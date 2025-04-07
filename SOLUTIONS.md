@@ -408,3 +408,10 @@
     grid-area: 1 / 4 / 4 / 5;
 
 </details>
+
+<details>
+  <summary>Level 30</summary>
+
+    grid-area: 1 / 1 / 4 / 4;
+
+</details>
