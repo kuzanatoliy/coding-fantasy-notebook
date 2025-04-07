@@ -397,3 +397,14 @@
     grid-area: 2 / 1 / 5 / 4;
 
 </details>
+
+<details>
+  <summary>Level 29</summary>
+
+    gap: 15px 10px;
+
+    grid-area: 3 / 2 / 5 / 4;
+
+    grid-area: 1 / 4 / 4 / 5;
+
+</details>
