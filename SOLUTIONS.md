@@ -415,3 +415,15 @@
     grid-area: 1 / 1 / 4 / 4;
 
 </details>
+
+<details>
+  <summary>Level 31</summary>
+
+    gap: 15px;
+    grid-template-columns: 1fr 2fr 1fr;
+
+    grid-area: 1 / 3 / 5 / 4;
+
+    grid-area: 1 / 1 / 4 / 3;
+
+</details>
