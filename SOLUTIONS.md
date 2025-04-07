@@ -427,3 +427,14 @@
     grid-area: 1 / 1 / 4 / 3;
 
 </details>
+
+<details>
+  <summary>Level 32</summary>
+
+    gap: 15px 10px;
+
+    grid-area: 1 / 1 / 3 / 3;
+
+    grid-area: 3 / 1 / 4 / 4;
+
+</details>
