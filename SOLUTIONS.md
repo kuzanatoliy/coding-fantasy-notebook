@@ -502,3 +502,11 @@
     grid-template-columns: repeat(4, minmax(150px, auto));
 
 </details>
+
+<details>
+  <summary>Level 42</summary>
+
+    gap: 15px;
+    grid-template-columns: repeat(2, minmax(100px, 1fr));
+
+</details>
