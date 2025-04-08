@@ -143,7 +143,31 @@ describe('Grid Attack', () => {
     cy.playGridAttackLevel(36);
   });
 
-  it('Should solve thirty sixth task', () => {
+  it('Should solve thirty seventh task', () => {
     cy.playGridAttackLevel(37);
+  });
+
+  it('Should solve thirty eighth task', () => {
+    cy.playGridAttackLevel(38);
+  });
+
+  it('Should solve thirty nineth task', () => {
+    cy.playGridAttackLevel(39);
+  });
+
+  it('Should solve fourtyth task', () => {
+    cy.playGridAttackLevel(40);
+  });
+
+  it('Should solve fourty first task', () => {
+    cy.playGridAttackLevel(41);
+  });
+
+  it('Should solve fourty second task', () => {
+    cy.playGridAttackLevel(42);
+  });
+
+  it('Should solve fourty third task', () => {
+    cy.playGridAttackLevel(43);
   });
 });

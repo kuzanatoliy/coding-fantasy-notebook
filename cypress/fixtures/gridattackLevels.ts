@@ -65,4 +65,12 @@ export const gridattackLevels = [
   ['grid-template: 1fr 1fr / max-content 1fr;'],
   ['grid-template: 1fr 1fr / max-content min-content;'],
   ['grid-template-columns: minmax(250px, 1fr) 1fr;'],
+  ['grid-template: 1fr 1fr / minmax(auto, 200px) 150px;'],
+  [
+    'grid-template: 1fr 1fr / minmax(min-content, 200px) minmax(min-content, auto)',
+  ],
+  ['grid-template-columns: repeat(4, 150px);'],
+  ['gap: 15px;', 'grid-template-columns: repeat(4, minmax(150px, auto));'],
+  ['gap: 15px;', 'grid-template-columns: repeat(2, minmax(100px, 1fr));'],
+  ['grid-template: 100px 1fr 100px / 100px 1fr 100px;'],
 ];

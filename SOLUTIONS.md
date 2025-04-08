@@ -473,3 +473,47 @@
     grid-template-columns: minmax(250px, 1fr) 1fr;
 
 </details>
+
+<details>
+  <summary>Level 38</summary>
+
+    grid-template: 1fr 1fr / minmax(auto, 200px) 150px;
+
+</details>
+
+<details>
+  <summary>Level 39</summary>
+
+    grid-template: 1fr 1fr / minmax(min-content, 200px) minmax(min-content, auto);
+
+</details>
+
+<details>
+  <summary>Level 40</summary>
+
+    grid-template-columns: repeat(4, 150px);
+
+</details>
+
+<details>
+  <summary>Level 41</summary>
+
+    gap: 15px;
+    grid-template-columns: repeat(4, minmax(150px, auto));
+
+</details>
+
+<details>
+  <summary>Level 42</summary>
+
+    gap: 15px;
+    grid-template-columns: repeat(2, minmax(100px, 1fr));
+
+</details>
+
+<details>
+  <summary>Level 43</summary>
+
+    grid-template: 100px 1fr 100px / 100px 1fr 100px;
+
+</details>

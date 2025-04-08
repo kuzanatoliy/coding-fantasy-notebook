@@ -13,7 +13,7 @@ describe('Codingfantasy', () => {
 
   it('Should open mcp page', () => {
     cy.visit('https://codingfantasy.com/games/mcp');
-    cy.get('h1').should('contain', 'MCP Panic');
+    cy.get('h1').should('contain', 'Model Context');
   });
 
   it('Should open flexbox adventure page', () => {
