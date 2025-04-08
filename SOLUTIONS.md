@@ -487,3 +487,10 @@
     grid-template: 1fr 1fr / minmax(min-content, 200px) minmax(min-content, auto);
 
 </details>
+
+<details>
+  <summary>Level 40</summary>
+
+    grid-template-columns: repeat(4, 150px);
+
+</details>
