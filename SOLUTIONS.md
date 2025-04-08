@@ -473,3 +473,10 @@
     grid-template-columns: minmax(250px, 1fr) 1fr;
 
 </details>
+
+<details>
+  <summary>Level 38</summary>
+
+    grid-template: 1fr 1fr / minmax(auto, 200px) 150px;
+
+</details>
