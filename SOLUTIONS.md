@@ -510,3 +510,10 @@
     grid-template-columns: repeat(2, minmax(100px, 1fr));
 
 </details>
+
+<details>
+  <summary>Level 43</summary>
+
+    grid-template: 100px 1fr 100px / 100px 1fr 100px;
+
+</details>
