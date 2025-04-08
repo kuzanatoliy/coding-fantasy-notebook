@@ -494,3 +494,11 @@
     grid-template-columns: repeat(4, 150px);
 
 </details>
+
+<details>
+  <summary>Level 41</summary>
+
+    gap: 15px;
+    grid-template-columns: repeat(4, minmax(150px, auto));
+
+</details>
