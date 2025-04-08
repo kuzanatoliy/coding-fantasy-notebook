@@ -480,3 +480,10 @@
     grid-template: 1fr 1fr / minmax(auto, 200px) 150px;
 
 </details>
+
+<details>
+  <summary>Level 39</summary>
+
+    grid-template: 1fr 1fr / minmax(min-content, 200px) minmax(min-content, auto);
+
+</details>
