@@ -556,3 +556,13 @@
     grid-auto-flow: column;
 
 </details>
+
+<details>
+  <summary>Level 48</summary>
+
+    gap: 15px;
+    grid-template: repeat(4, 1fr) / repeat(4, 1fr);
+    grid-auto-flow: column;
+    #greenLand { grid-column-start: span 3; }
+
+</details>

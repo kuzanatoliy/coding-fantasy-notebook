@@ -92,4 +92,10 @@ export const gridattackLevels = [
   ],
   ['', 'grid-auto-flow: column;'],
   ['', 'grid-auto-flow: dense;'],
+  [
+    'gap: 15px;',
+    'grid-template: repeat(4, 1fr) / repeat(4, 1fr);',
+    'grid-auto-flow: column;',
+    '#greenLand { grid-column-start: span 3; }',
+  ],
 ];
