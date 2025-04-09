@@ -517,3 +517,14 @@
     grid-template: 100px 1fr 100px / 100px 1fr 100px;
 
 </details>
+
+<details>
+  <summary>Level 44</summary>
+
+    gap: 15px;
+
+    grid-area: 2 / 2 / 4 / 4;
+
+    grid-area: 1 / 1 / 2 / 4;
+
+</details>
