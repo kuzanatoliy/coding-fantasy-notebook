@@ -91,4 +91,5 @@ export const gridattackLevels = [
     'grid-template: 100px 200px 1fr / 1fr 1fr 1fr;',
   ],
   ['', 'grid-auto-flow: column;'],
+  ['', 'grid-auto-flow: dense;'],
 ];
