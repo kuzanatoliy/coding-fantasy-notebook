@@ -528,3 +528,17 @@
     grid-area: 1 / 1 / 2 / 4;
 
 </details>
+
+<details>
+  <summary>Level 45</summary>
+
+    gap: 15px;
+    grid-template: 100px 200px 1fr / 1fr 1fr 1fr;
+
+    grid-area: 2 / 2 / 4 / 4;
+
+    grid-area: 1 / 1 / 2 / 3;
+
+    grid-area: 2 / 1 / 4 / 2;
+
+</details>
