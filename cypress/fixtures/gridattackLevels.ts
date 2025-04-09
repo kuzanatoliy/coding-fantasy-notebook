@@ -113,4 +113,5 @@ export const gridattackLevels = [
     'grid-auto-flow: column;',
   ],
   ['justify-items: start;'],
+  ['justify-items: end;'],
 ];
