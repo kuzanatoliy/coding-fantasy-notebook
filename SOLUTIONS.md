@@ -590,3 +590,12 @@
     grid-area: 3 / 3 / 4 / 4;
 
 </details>
+
+<details>
+  <summary>Level 52</summary>
+
+    gap: 15px;
+    grid-template: 1fr 1fr 100px 150px/ repeat(3, 1fr);
+    grid-auto-flow: column;
+
+</details>
