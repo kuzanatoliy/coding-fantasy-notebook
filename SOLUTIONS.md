@@ -517,3 +517,115 @@
     grid-template: 100px 1fr 100px / 100px 1fr 100px;
 
 </details>
+
+<details>
+  <summary>Level 44</summary>
+
+    gap: 15px;
+
+    grid-area: 2 / 2 / 4 / 4;
+
+    grid-area: 1 / 1 / 2 / 4;
+
+</details>
+
+<details>
+  <summary>Level 45</summary>
+
+    gap: 15px;
+    grid-template: 100px 200px 1fr / 1fr 1fr 1fr;
+
+    grid-area: 2 / 2 / 4 / 4;
+
+    grid-area: 1 / 1 / 2 / 3;
+
+    grid-area: 2 / 1 / 4 / 2;
+
+</details>
+
+<details>
+  <summary>Level 46</summary>
+
+    grid-auto-flow: column;
+
+</details>
+
+<details>
+  <summary>Level 47</summary>
+
+    grid-auto-flow: column;
+
+</details>
+
+<details>
+  <summary>Level 48</summary>
+
+    gap: 15px;
+    grid-template: repeat(4, 1fr) / repeat(4, 1fr);
+    grid-auto-flow: column;
+    #greenLand { grid-column-start: span 3; }
+
+</details>
+
+<details>
+  <summary>Level 49</summary>
+
+    grid-template-columns: repeat(3, 1fr);
+
+</details>
+
+<details>
+  <summary>Level 50</summary>
+
+    grid-template: 1fr 1fr 100px / 1fr 1fr;
+
+</details>
+
+<details>
+  <summary>Level 51</summary>
+
+    gap: 20px;
+    grid-template: 1fr 1fr 100px / 1fr 1fr 100px;
+
+    grid-area: 3 / 3 / 4 / 4;
+
+</details>
+
+<details>
+  <summary>Level 52</summary>
+
+    gap: 15px;
+    grid-template: 1fr 1fr 100px 150px/ repeat(3, 1fr);
+    grid-auto-flow: column;
+
+</details>
+
+<details>
+  <summary>Level 53</summary>
+
+    justify-items: start;
+
+</details>
+
+<details>
+  <summary>Level 54</summary>
+
+    justify-items: end;
+
+</details>
+
+<details>
+  <summary>Level 55</summary>
+
+    grid-template: 100px 1fr / 2fr 1fr;
+    justify-items: center;
+
+</details>
+
+<details>
+  <summary>Level 56</summary>
+
+    grid-template: 100px 1fr / 2fr 1fr;
+    align-items: center;
+
+</details>
