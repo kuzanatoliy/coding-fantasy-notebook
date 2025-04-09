@@ -580,3 +580,13 @@
     grid-template: 1fr 1fr 100px / 1fr 1fr;
 
 </details>
+
+<details>
+  <summary>Level 51</summary>
+
+    gap: 20px;
+    grid-template: 1fr 1fr 100px / 1fr 1fr 100px;
+
+    grid-area: 3 / 3 / 4 / 4;
+
+</details>
