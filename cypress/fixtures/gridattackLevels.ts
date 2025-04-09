@@ -112,6 +112,7 @@ export const gridattackLevels = [
     'grid-template: 1fr 1fr 100px 150px/ repeat(3, 1fr);',
     'grid-auto-flow: column;',
   ],
-  ['justify-items: start;'],
-  ['justify-items: end;'],
+  ['', 'justify-items: start;'],
+  ['', 'justify-items: end;'],
+  ['', 'grid-template: 100px 1fr / 2fr 1fr;', 'justify-items: center;'],
 ];
