@@ -566,3 +566,10 @@
     #greenLand { grid-column-start: span 3; }
 
 </details>
+
+<details>
+  <summary>Level 49</summary>
+
+    grid-template-columns: repeat(3, 1fr);
+
+</details>
