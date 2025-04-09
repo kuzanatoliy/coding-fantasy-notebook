@@ -626,6 +626,6 @@
   <summary>Level 56</summary>
 
     grid-template: 100px 1fr / 2fr 1fr;
-    justify-items: center;
+    align-items: center;
 
 </details>
