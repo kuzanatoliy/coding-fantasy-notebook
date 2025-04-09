@@ -99,4 +99,5 @@ export const gridattackLevels = [
     '#greenLand { grid-column-start: span 3; }',
   ],
   ['', 'grid-template-columns: repeat(3, 1fr);'],
+  ['grid-template: 1fr 1fr 100px / 1fr 1fr;'],
 ];

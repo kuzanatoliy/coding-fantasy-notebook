@@ -573,3 +573,10 @@
     grid-template-columns: repeat(3, 1fr);
 
 </details>
+
+<details>
+  <summary>Level 50</summary>
+
+    grid-template: 1fr 1fr 100px / 1fr 1fr;
+
+</details>
