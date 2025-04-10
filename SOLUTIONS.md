@@ -724,3 +724,12 @@
     align-self: end;
 
 </details>
+
+<details>
+  <summary>Level 67</summary>
+
+    grid-template: repeat(3, 1fr) / 2fr 1fr;
+
+    justify-self: end;
+
+</details>

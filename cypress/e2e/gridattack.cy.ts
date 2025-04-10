@@ -223,43 +223,47 @@ describe('Grid Attack', () => {
     cy.playGridAttackLevel(56);
   });
 
-  it.only('Should solve fifty seventh task', () => {
+  it('Should solve fifty seventh task', () => {
     cy.playGridAttackLevel(57);
   });
 
-  it.only('Should solve fifty eighth task', () => {
+  it('Should solve fifty eighth task', () => {
     cy.playGridAttackLevel(58);
   });
 
-  it.only('Should solve fifty nineth task', () => {
+  it('Should solve fifty nineth task', () => {
     cy.playGridAttackLevel(59);
   });
 
-  it.only('Should solve sixtyth task', () => {
+  it('Should solve sixtyth task', () => {
     cy.playGridAttackLevel(60);
   });
 
-  it.only('Should solve sixty first task', () => {
+  it('Should solve sixty first task', () => {
     cy.playGridAttackLevel(61);
   });
 
-  it.only('Should solve sixty second task', () => {
+  it('Should solve sixty second task', () => {
     cy.playGridAttackLevel(62);
   });
 
-  it.only('Should solve sixty third task', () => {
+  it('Should solve sixty third task', () => {
     cy.playGridAttackLevel(63);
   });
 
-  it.only('Should solve sixty fourth task', () => {
+  it('Should solve sixty fourth task', () => {
     cy.playGridAttackLevel(64);
   });
 
-  it.only('Should solve sixty fifth task', () => {
+  it('Should solve sixty fifth task', () => {
     cy.playGridAttackLevel(65);
   });
 
-  it.only('Should solve sixty sixth task', () => {
+  it('Should solve sixty sixth task', () => {
     cy.playGridAttackLevel(66);
+  });
+
+  it.only('Should solve sixty seventh task', () => {
+    cy.playGridAttackLevel(67);
   });
 });
