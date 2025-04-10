@@ -636,3 +636,11 @@
     align-items: end;
 
 </details>
+
+<details>
+  <summary>Level 58</summary>
+
+    align-items: center;
+    grid-template: 2fr 1fr / repeat(3, 1fr);
+
+</details>
