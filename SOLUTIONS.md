@@ -644,3 +644,14 @@
     grid-template: 2fr 1fr / repeat(3, 1fr);
 
 </details>
+
+<details>
+  <summary>Level 59</summary>
+
+    justify-items: center;
+    align-items: center;
+    grid-template: 1fr 1fr / 2fr 1fr 1fr;
+
+    grid-area: 2 / 2 / 4 / 4;
+
+</details>
