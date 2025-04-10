@@ -629,3 +629,121 @@
     align-items: center;
 
 </details>
+
+<details>
+  <summary>Level 57</summary>
+
+    align-items: end;
+
+</details>
+
+<details>
+  <summary>Level 58</summary>
+
+    align-items: center;
+    grid-template: 2fr 1fr / repeat(3, 1fr);
+
+</details>
+
+<details>
+  <summary>Level 59</summary>
+
+    justify-items: center;
+    align-items: center;
+    grid-template: 1fr 1fr / 2fr 1fr 1fr;
+
+    grid-area: 2 / 2 / 4 / 4;
+
+</details>
+
+<details>
+  <summary>Level 60</summary>
+
+    justify-items: end;
+    align-items: center;
+
+</details>
+
+<details>
+  <summary>Level 61</summary>
+
+    justify-self: start;
+
+</details>
+
+<details>
+  <summary>Level 62</summary>
+
+    justify-self: center;
+
+</details>
+
+<details>
+  <summary>Level 63</summary>
+
+    gap: 15px;
+    grid-template: 1fr 1fr / 200px 1fr;
+
+    width: 50%;
+    height: 50%;
+    justify-self: end;
+
+</details>
+
+<details>
+  <summary>Level 64</summary>
+
+    grid-template: 1fr 2fr / 1fr 2fr;
+    gap: 15px;
+
+    height: 50%;
+    align-self: center;
+
+</details>
+
+<details>
+  <summary>Level 65</summary>
+
+    grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+
+    height: 50%;
+    align-self: end;
+
+</details>
+
+<details>
+  <summary>Level 66</summary>
+
+    justify-items: center;
+    align-items: center;
+
+    justify-self: end;
+    align-self: end;
+
+    justify-self: start;
+    align-self: end;
+
+</details>
+
+<details>
+  <summary>Level 67</summary>
+
+    grid-template: repeat(3, 1fr) / 2fr 1fr;
+
+    justify-self: end;
+
+</details>
+
+<details>
+  <summary>Level 68</summary>
+
+    justify-content: center;
+
+</details>
+
+<details>
+  <summary>Level 69</summary>
+
+    justify-content: end;
+
+</details>
