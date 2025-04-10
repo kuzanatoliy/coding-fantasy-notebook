@@ -655,3 +655,11 @@
     grid-area: 2 / 2 / 4 / 4;
 
 </details>
+
+<details>
+  <summary>Level 60</summary>
+
+    justify-items: end;
+    align-items: center;
+
+</details>
