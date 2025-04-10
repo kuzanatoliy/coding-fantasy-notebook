@@ -670,3 +670,10 @@
     justify-self: start;
 
 </details>
+
+<details>
+  <summary>Level 62</summary>
+
+    justify-self: center;
+
+</details>
