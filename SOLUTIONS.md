@@ -677,3 +677,15 @@
     justify-self: center;
 
 </details>
+
+<details>
+  <summary>Level 63</summary>
+
+    gap: 15px;
+    grid-template: 1fr 1fr / 200px 1fr;
+
+    width: 50%;
+    height: 50%;
+    justify-self: end;
+
+</details>
