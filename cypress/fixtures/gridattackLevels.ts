@@ -137,4 +137,11 @@ export const gridattackLevels = [
     'gap: 15px;',
     'grid-template: 1fr 1fr / 200px 1fr;',
   ],
+  [
+    'height: 50%;',
+    'align-self: center;',
+    '       ',
+    'grid-template: 1fr 2fr / 1fr 2fr;',
+    'gap: 15px;',
+  ],
 ];
