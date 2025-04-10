@@ -150,4 +150,14 @@ export const gridattackLevels = [
     '       ',
     'grid-template: repeat(3, 1fr) / repeat(3, 1fr);',
   ],
+  [
+    'justify-self: start;',
+    'align-self: end;',
+    '       ',
+    'justify-self: end;',
+    'align-self: end;',
+    '             ',
+    'justify-items: center;',
+    'align-items: center;',
+  ],
 ];

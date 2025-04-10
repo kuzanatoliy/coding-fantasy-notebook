@@ -710,3 +710,17 @@
     align-self: end;
 
 </details>
+
+<details>
+  <summary>Level 66</summary>
+
+    justify-items: center;
+    align-items: center;
+
+    justify-self: end;
+    align-self: end;
+
+    justify-self: start;
+    align-self: end;
+
+</details>
