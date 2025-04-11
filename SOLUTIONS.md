@@ -838,3 +838,15 @@
     align-self: center;
 
 </details>
+
+<details>
+  <summary>Level 79</summary>
+
+    gap: 15px;
+    grid-template: repeat(4, 1fr) / repeat(4, 1fr);
+
+    grid-area: 3 / 2 / 5 / 5;
+
+    grid-area: 1 / 3 / 4 / 5;
+
+</details>
