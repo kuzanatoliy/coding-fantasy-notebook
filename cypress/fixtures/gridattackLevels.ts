@@ -174,4 +174,5 @@ export const gridattackLevels = [
     'justify-content: space-evenly;',
   ],
   ['align-content: center;'],
+  ['grid-template: repeat(2, 125px) / repeat(2, 40%);', 'align-content: end;'],
 ];

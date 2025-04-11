@@ -763,3 +763,11 @@
     align-content: center;
 
 </details>
+
+<details>
+  <summary>Level 72</summary>
+
+    grid-template: repeat(2, 125px) / repeat(2, 40%);
+    align-content: end;
+
+</details>
