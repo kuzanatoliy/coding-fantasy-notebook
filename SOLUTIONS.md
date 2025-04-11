@@ -804,3 +804,10 @@
     grid-area: b;
 
 </details>
+
+<details>
+  <summary>Level 76</summary>
+
+    grid-template: 1fr 1fr / minmax(max-content, 1fr) minmax(min-content, auto);
+
+</details>

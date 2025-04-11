@@ -193,4 +193,7 @@ export const gridattackLevels = [
     'grid-template: repeat(3, 1fr) / repeat(3, 1fr);',
     'grid-template-areas: "g g b" "g g b" "r r r";',
   ],
+  [
+    'grid-template: 1fr 1fr / minmax(max-content, 1fr) minmax(min-content, auto);',
+  ],
 ];
