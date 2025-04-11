@@ -811,3 +811,14 @@
     grid-template: 1fr 1fr / minmax(max-content, 1fr) minmax(min-content, auto);
 
 </details>
+
+<details>
+  <summary>Level 77</summary>
+
+    gap: 15px;
+    grid-auto-rows: 100px;
+    align-content: space-between;
+
+    grid-column: span 3;
+
+</details>

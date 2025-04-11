@@ -196,4 +196,11 @@ export const gridattackLevels = [
   [
     'grid-template: 1fr 1fr / minmax(max-content, 1fr) minmax(min-content, auto);',
   ],
+  [
+    'grid-column: span 3;',
+    '     ',
+    'gap: 15px;',
+    'grid-auto-rows: 100px;',
+    'align-content: space-between;',
+  ],
 ];
