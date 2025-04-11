@@ -822,3 +822,19 @@
     grid-column: span 3;
 
 </details>
+
+<details>
+  <summary>Level 78</summary>
+
+    gap: 15px;
+    grid-template: 1fr 1fr / 100px 1fr 1fr;
+
+    grid-area: 1 / 1 / 3 / 2;
+
+    grid-area: 2 / 2 / 3 / 2;
+
+    grid-area: 1 / 3 / 2 / 4;
+    height: 50%;
+    align-self: center;
+
+</details>

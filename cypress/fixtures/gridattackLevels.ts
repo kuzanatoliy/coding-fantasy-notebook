@@ -203,4 +203,16 @@ export const gridattackLevels = [
     'grid-auto-rows: 100px;',
     'align-content: space-between;',
   ],
+  [
+    'grid-area: 1 / 3 / 2 / 4;',
+    'height: 50%;',
+    'align-self: center;',
+    '       ',
+    'grid-area: 2 / 2 / 3 / 2;',
+    '     ',
+    'grid-area: 1 / 1 / 3 / 2;',
+    '     ',
+    'gap: 15px;',
+    'grid-template: 1fr 1fr / 100px 1fr 1fr',
+  ],
 ];
