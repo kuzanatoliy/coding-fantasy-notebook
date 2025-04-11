@@ -779,3 +779,13 @@
     align-content: space-between;
 
 </details>
+
+<details>
+  <summary>Level 73</summary>
+
+    gap: 15px;
+    grid-template: repeat(4, 1fr) / repeat(4, 1fr);
+
+    grid-area: 2 / 2 / 5 / 4;
+
+</details>
