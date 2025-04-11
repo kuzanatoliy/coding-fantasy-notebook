@@ -16,7 +16,7 @@ Cypress.Commands.add('playGridAttackLevel', (level: number) => {
     `{moveToEnd}{upArrow}${gridattackLevels[level - 1].map((item) => item.trim() || new Array(item.length).fill('{upArrow}').join('')).join('')}`
   );
   // eslint-disable-next-line cypress/no-unnecessary-waiting
-  cy.wait(4000);
+  cy.wait(2000);
   cy.contains('Check Answer').click();
   cy.get('[role="dialog"]').should(
     'contain',
