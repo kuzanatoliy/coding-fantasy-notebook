@@ -747,3 +747,119 @@
     justify-content: end;
 
 </details>
+
+<details>
+  <summary>Level 70</summary>
+
+    grid-template: 1fr 1fr / 40% 40%;
+    justify-items: end;
+    justify-content: space-evenly;
+
+</details>
+
+<details>
+  <summary>Level 71</summary>
+
+    align-content: center;
+
+</details>
+
+<details>
+  <summary>Level 72</summary>
+
+    grid-template: repeat(2, 125px) / repeat(2, 40%);
+    align-content: end;
+
+</details>
+
+<details>
+  <summary>Level 73</summary>
+
+    grid-template: 100px 100px / 1fr 100px;
+    align-content: space-between;
+
+</details>
+
+<details>
+  <summary>Level 74</summary>
+
+    gap: 15px;
+    grid-template: repeat(4, 1fr) / repeat(4, 1fr);
+
+    grid-area: 2 / 2 / 5 / 4;
+
+</details>
+
+<details>
+  <summary>Level 75</summary>
+
+    gap: 15px 10px;
+    grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+    grid-template-areas: "g g b" "g g b" "r r r";
+
+    grid-area: g;
+
+    grid-area: r;
+
+    grid-area: b;
+
+</details>
+
+<details>
+  <summary>Level 76</summary>
+
+    grid-template: 1fr 1fr / minmax(max-content, 1fr) minmax(min-content, auto);
+
+</details>
+
+<details>
+  <summary>Level 77</summary>
+
+    gap: 15px;
+    grid-auto-rows: 100px;
+    align-content: space-between;
+
+    grid-column: span 3;
+
+</details>
+
+<details>
+  <summary>Level 78</summary>
+
+    gap: 15px;
+    grid-template: 1fr 1fr / 100px 1fr 1fr;
+
+    grid-area: 1 / 1 / 3 / 2;
+
+    grid-area: 2 / 2 / 3 / 2;
+
+    grid-area: 1 / 3 / 2 / 4;
+    height: 50%;
+    align-self: center;
+
+</details>
+
+<details>
+  <summary>Level 79</summary>
+
+    gap: 15px;
+    grid-template: repeat(4, 1fr) / repeat(4, 1fr);
+
+    grid-area: 3 / 2 / 5 / 5;
+
+    grid-area: 1 / 3 / 4 / 5;
+
+</details>
+
+<details>
+  <summary>Level 80</summary>
+
+    grid-template: 1fr 1fr 1fr 1fr / 1fr 1fr 1fr;
+
+    grid-area: 1 / 1 / 2 / 3;
+
+    grid-area: 1 / 2 / 3 / 4;
+
+    grid-area: 1 / 2 / 5 / 3;
+
+</details>
