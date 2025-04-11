@@ -182,4 +182,15 @@ export const gridattackLevels = [
     'gap: 15px;',
     'grid-template: repeat(4, 1fr) / repeat(4, 1fr);',
   ],
+  [
+    'grid-area: b;',
+    '     ',
+    'grid-area: r;',
+    '     ',
+    'grid-area: g;',
+    '     ',
+    'gap: 15px 10px;',
+    'grid-template: repeat(3, 1fr) / repeat(3, 1fr);',
+    'grid-template-areas: "g g b" "g g b" "r r r";',
+  ],
 ];

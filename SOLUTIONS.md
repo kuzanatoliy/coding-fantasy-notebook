@@ -781,11 +781,26 @@
 </details>
 
 <details>
-  <summary>Level 73</summary>
+  <summary>Level 74</summary>
 
     gap: 15px;
     grid-template: repeat(4, 1fr) / repeat(4, 1fr);
 
     grid-area: 2 / 2 / 5 / 4;
+
+</details>
+
+<details>
+  <summary>Level 75</summary>
+
+    gap: 15px 10px;
+    grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+    grid-template-areas: "g g b" "g g b" "r r r";
+
+    grid-area: g;
+
+    grid-area: r;
+
+    grid-area: b;
 
 </details>
