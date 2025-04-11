@@ -771,3 +771,11 @@
     align-content: end;
 
 </details>
+
+<details>
+  <summary>Level 73</summary>
+
+    grid-template: 100px 100px / 1fr 100px;
+    align-content: space-between;
+
+</details>
