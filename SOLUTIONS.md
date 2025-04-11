@@ -850,3 +850,16 @@
     grid-area: 1 / 3 / 4 / 5;
 
 </details>
+
+<details>
+  <summary>Level 80</summary>
+
+    grid-template: 1fr 1fr 1fr 1fr / 1fr 1fr 1fr;
+
+    grid-area: 1 / 1 / 2 / 3;
+
+    grid-area: 1 / 2 / 3 / 4;
+
+    grid-area: 1 / 2 / 5 / 3;
+
+</details>

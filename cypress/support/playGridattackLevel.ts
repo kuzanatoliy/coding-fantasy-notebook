@@ -18,5 +18,10 @@ Cypress.Commands.add('playGridAttackLevel', (level: number) => {
   // eslint-disable-next-line cypress/no-unnecessary-waiting
   cy.wait(4000);
   cy.contains('Check Answer').click();
-  cy.get('[role="dialog"]').should('contain', `Level ${level} completed`);
+  cy.get('[role="dialog"]').should(
+    'contain',
+    level === gridattackLevels.length
+      ? 'Congratulations, you made it! Just wow!'
+      : `Level ${level} completed`
+  );
 });
