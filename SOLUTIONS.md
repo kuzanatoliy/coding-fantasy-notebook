@@ -747,3 +747,12 @@
     justify-content: end;
 
 </details>
+
+<details>
+  <summary>Level 70</summary>
+
+    grid-template: 1fr 1fr / 40% 40%;
+    justify-items: end;
+    justify-content: space-evenly;
+
+</details>

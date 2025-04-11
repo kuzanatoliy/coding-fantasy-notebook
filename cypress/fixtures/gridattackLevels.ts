@@ -167,4 +167,10 @@ export const gridattackLevels = [
   ],
   ['justify-content: center;'],
   ['justify-content: end;'],
+  [
+    '      ',
+    'grid-template: 1fr 1fr / 40% 40%;',
+    'justify-items: end;',
+    'justify-content: space-evenly;',
+  ],
 ];
