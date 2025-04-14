@@ -61,5 +61,51 @@ describe('MCP', () => {
       'The laptop screen is black now, but you swear—you can still hear'
     );
     cy.get('button').contains('Next Act').click();
+    cy.get('h2').should('contain', 'Act 2/5: Resources Under Pressure');
+    cy.wait(15000);
+    cy.contains('TODO.md');
+    cy.contains(
+      '(ignoring Chase, approaching you) You. Fix whatever needs fixing.'
+    );
+    cy.get('button').contains('Next Scene').click();
+    cy.wait(20000);
+    cy.contains('Chase exits dramatically, leaving you and Steve alone');
+    cy.get('button').contains('Next Scene').click();
+    cy.wait(7000);
+    cy.contains("(nodding approvingly) Now you're thinking like an engineer.");
+    cy.get('button').contains('Next Scene').click();
+    cy.wait(10000);
+    cy.contains('Depends. Can we get SoftBank to invest in them?');
+    cy.get('button').contains('Next Scene').click();
+    cy.wait(17000);
+    cy.contains('(deadpan) Welcome to Silicon Valley.');
+    cy.get('button').contains('Next Scene').click();
+    cy.wait(8000);
+    cy.contains('example-server.js');
+    cy.contains('example-client.js');
+    cy.contains(
+      "(thinks for a moment) Let's start simple. We need to build a bare-bones server"
+    );
+    cy.get('button').contains('Next Scene').click();
+    cy.wait(4000);
+    cy.contains('Complete your second coding challenge!');
+    cy.get('button').contains('Next Scene').click();
+    cy.wait(2000);
+    cy.contains("When you're done, click the 'Next Scene' button to continue.");
+    cy.get('button').contains('Next Scene').click();
+    cy.wait(2000);
+    cy.contains('I have to admit, great job kiddo.');
+    cy.get('button').contains('Next Scene').click();
+    cy.wait(15000);
+    cy.contains('Chase exits, already typing furiously on his phone');
+    cy.get('button').contains('Next Scene').click();
+    cy.wait(12000);
+    cy.contains(
+      'Then we tackle Tools - the most complex and crucial part of MCP.'
+    );
+    cy.get('button').contains('Next Scene').click();
+    cy.wait(7000);
+    cy.contains('Yep. Time to get back to work.');
+    cy.get('button').contains('Next Act').click();
   });
 });
