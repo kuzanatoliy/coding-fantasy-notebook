@@ -155,5 +155,43 @@ describe('MCP', () => {
     cy.wait(7000);
     cy.contains('Both you and Steve pretend not to have seen it.');
     cy.get('button').contains('Next Act').click();
+    cy.get('h2').should('contain', 'Act 4/5: Tools of the Trade');
+    cy.wait(12000);
+    cy.contains('Similar concept, but more structured.');
+    cy.get('button').contains('Next Scene').click();
+    cy.wait(20000);
+    cy.contains('TODO.md');
+    cy.contains("Let's focus on what we can control.");
+    cy.get('button').contains('Next Scene').click();
+    cy.wait(20000);
+    cy.contains('(nodding) For now, yes. We need to implement tools');
+    cy.get('button').contains('Next Scene').click();
+    cy.wait(2000);
+    cy.contains("Let's extend our server to support tools.");
+    cy.get('button').contains('Next Scene').click();
+    cy.wait(2000);
+    cy.contains("When you're done, click the 'Next Scene' button to continue.");
+    cy.get('button').contains('Next Scene').click();
+    cy.wait(7000);
+    cy.contains(
+      "We can generate an answer. Whether it's true or not... that's another story."
+    );
+    cy.get('button').contains('Next Scene').click();
+    cy.wait(10000);
+    cy.contains('Show me.');
+    cy.get('button').contains('Next Scene').click();
+    cy.wait(10000);
+    cy.contains(
+      '(stopping at the door, not looking back) You already know what I mean.'
+    );
+    cy.get('button').contains('Next Scene').click();
+    cy.wait(4000);
+    cy.contains(
+      "(thinking) She's going to trade on the predictions before anyone else gets access."
+    );
+    cy.get('button').contains('Next Scene').click();
+    cy.wait(20000);
+    cy.contains('The message vanishes as quickly as it appeared.');
+    cy.get('button').contains('Next Act').click();
   });
 });
