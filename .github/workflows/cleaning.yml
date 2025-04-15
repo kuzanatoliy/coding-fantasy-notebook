@@ -16,11 +16,11 @@ jobs:
         run: |
           git config --global user.email "njkznu@gmail.com"
           git config --global user.name "kuzanatoliy"
-          branchList=`git branch --remotes`
+          branchList=`git branch --remotes` | grep -v "origin/HEAD -> *"
           for branch in $branchList
           do
             name=`echo $branch | cut -d "/" -f 2`
-            if [$name != "->" -a $name != "HEAD" -a $name != "master" -a $name != "develop" -a $name != "gh-pages" ]
+            if [$name != "master" -a $name != "develop" -a $name != "gh-pages" ]
             then
               git push origin -d $name
             fi
