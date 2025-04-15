@@ -20,8 +20,9 @@ jobs:
           for branch in $branchList
           do
             name=`echo $branch | cut -d "/" -f 2`
+            echo $name
             if [$name != master -a $name != develop -a $name != gh-pages ]
             then
-              git push origin -d $name
+              # git push origin -d $name
             fi
           done
