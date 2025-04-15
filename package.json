@@ -1,6 +1,6 @@
 {
   "name": "coding-fantasy-notebook",
-  "version": "0.31.0",
+  "version": "0.32.0",
   "type": "module",
   "description": "Solution list for grid garden play",
   "main": "index.js",
