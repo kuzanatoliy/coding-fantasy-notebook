@@ -12,6 +12,7 @@ on:
           - general
           - flexbox adventure
           - grid attack
+          - NCP panic
 jobs:
   pipeline:
     runs-on: ubuntu-latest
@@ -39,3 +40,6 @@ jobs:
       - name: run grid attack e2e tests
         if: ${{ inputs.testSuit == 'all' || inputs.testSuit == 'grid attack' }}
         run: npm run cy:run -- --spec "cypress/e2e/gridattack.cy.ts"
+      - name: run ncp panic e2e tests
+        if: ${{ inputs.testSuit == 'all' || inputs.testSuit == 'NCP panic' }}
+        run: npm run cy:run -- --spec "cypress/e2e/mcp.cy.ts"
