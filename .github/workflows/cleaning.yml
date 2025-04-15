@@ -16,6 +16,7 @@ jobs:
         run: |
           git config --global user.email "njkznu@gmail.com"
           git config --global user.name "kuzanatoliy"
+          git branch --remotes | grep -v "origin/HEAD -> *"
           branchList=`git branch --remotes | grep -v "origin/HEAD -> *"`
           echo $branchList
           for branch in $branchList
