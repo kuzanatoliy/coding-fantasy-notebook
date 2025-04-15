@@ -17,7 +17,7 @@ jobs:
           git config --global user.email "njkznu@gmail.com"
           git config --global user.name "kuzanatoliy"
           branchList=`git branch --remotes`
-          echo branchList
+          echo $branchList
           # for branch in $branchList
           # do
           #  name=`echo $branch | cut -d "/" -f 2`
