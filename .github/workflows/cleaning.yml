@@ -17,12 +17,11 @@ jobs:
           git config --global user.email "njkznu@gmail.com"
           git config --global user.name "kuzanatoliy"
           branchList=`git branch --remotes`
-          echo $branchList
-          # for branch in $branchList
-          # do
-          #  name=`echo $branch | cut -d "/" -f 2`
-          #  if [ $name != master -a $name != develop -a $name != gh-pages ]
-          #  then
-          #    git push origin -d $name
-          #  fi
-          # done
+          for branch in $branchList
+          do
+            name=`echo $branch | cut -d "/" -f 2`
+            if [ $name != HEAD -a $name != master -a $name != develop -a $name != gh-pages ]
+            then
+              git push origin -d $name
+            fi
+          done
