@@ -1,5 +1,5 @@
 name: cleaning
-on: push
+on: workflow_dispatch
 permissions:
   contents: write
 jobs:
@@ -20,11 +20,8 @@ jobs:
           for branch in $branchList
           do
             name=`echo $branch | cut -d "/" -f 2`
-            echo $branch
-            echo $name
             if [ $name != master -a $name != develop -a $name != gh-pages ]
             then
-              echo $name
-              # git push origin -d $name
+              git push origin -d $name
             fi
           done
